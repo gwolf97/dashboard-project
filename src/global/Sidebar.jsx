@@ -94,7 +94,7 @@ const Sidebar = () => {
               Gabriel Wolf
             </Typography>
             <Typography variant="h5" color={colors.greenAccent[500]}>
-              VP Fancy Admin
+              VIP Admin 
             </Typography>
           </Box>
         </Box>
