@@ -12,7 +12,7 @@ import Line from "./scenes/line/index";
 import Bar from "./scenes/bar/index";
 import Pie from "./scenes/pie/index";
 import Faq from "./scenes/faq/index";
-//import Geography from "./scenes/geography";
+import Geography from "./scenes/geography/index";
 import Calendar from "./scenes/calendar/index";
 
 
@@ -39,8 +39,7 @@ function App() {
               <Route path="/bar" element={<Bar/>} />
               <Route path="/pie" element={<Pie/>} />
               <Route path="/line" element={<Line/>} />
-          {/*     <Route path="/geography" element={<Geography/>} />
-              */}
+              <Route path="/geography" element={<Geography/>} />
             </Routes>
         </main>
       </div>
