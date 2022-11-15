@@ -1,5 +1,5 @@
 import React from 'react'
-import {Box, Icon, IconButton, useTheme} from "@mui/material"
+import {Box, IconButton, useTheme} from "@mui/material"
 import { useContext } from 'react'
 import { ColorModeContext, tokens } from '../../theme'
 import {InputBase} from '@mui/material'
